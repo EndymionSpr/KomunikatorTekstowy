@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Program Files\\SourceTreeProjects\\KomunikatorTekstowy\\KomunikatorTekstowy.csproj": {}
+    "C:\\Users\\PC\\Documents\\Studia\\Projektowanie Aplikacji Internetowych\\KomunikatorTekstowy.csproj": {}
   },
   "projects": {
-    "D:\\Program Files\\SourceTreeProjects\\KomunikatorTekstowy\\KomunikatorTekstowy.csproj": {
+    "C:\\Users\\PC\\Documents\\Studia\\Projektowanie Aplikacji Internetowych\\KomunikatorTekstowy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\SourceTreeProjects\\KomunikatorTekstowy\\KomunikatorTekstowy.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\Studia\\Projektowanie Aplikacji Internetowych\\KomunikatorTekstowy.csproj",
         "projectName": "KomunikatorTekstowy",
-        "projectPath": "D:\\Program Files\\SourceTreeProjects\\KomunikatorTekstowy\\KomunikatorTekstowy.csproj",
-        "packagesPath": "C:\\Users\\EndymionSpr\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\SourceTreeProjects\\KomunikatorTekstowy\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Documents\\Studia\\Projektowanie Aplikacji Internetowych\\KomunikatorTekstowy.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\Studia\\Projektowanie Aplikacji Internetowych\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\EndymionSpr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +44,16 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
             }
           },
           "imports": [
