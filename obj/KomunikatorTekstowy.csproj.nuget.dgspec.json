@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Documents\\Studia\\Projektowanie Aplikacji Internetowych\\KomunikatorTekstowy.csproj": {}
+    "D:\\Program Files\\SourceTreeProjects\\KomunikatorTekstowy\\KomunikatorTekstowy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Documents\\Studia\\Projektowanie Aplikacji Internetowych\\KomunikatorTekstowy.csproj": {
+    "D:\\Program Files\\SourceTreeProjects\\KomunikatorTekstowy\\KomunikatorTekstowy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\Studia\\Projektowanie Aplikacji Internetowych\\KomunikatorTekstowy.csproj",
+        "projectUniqueName": "D:\\Program Files\\SourceTreeProjects\\KomunikatorTekstowy\\KomunikatorTekstowy.csproj",
         "projectName": "KomunikatorTekstowy",
-        "projectPath": "C:\\Users\\PC\\Documents\\Studia\\Projektowanie Aplikacji Internetowych\\KomunikatorTekstowy.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\Studia\\Projektowanie Aplikacji Internetowych\\obj\\",
+        "projectPath": "D:\\Program Files\\SourceTreeProjects\\KomunikatorTekstowy\\KomunikatorTekstowy.csproj",
+        "packagesPath": "C:\\Users\\EndymionSpr\\.nuget\\packages\\",
+        "outputPath": "D:\\Program Files\\SourceTreeProjects\\KomunikatorTekstowy\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\EndymionSpr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
