@@ -1,0 +1,45 @@
+body
+{
+	background-color: #0099ff;
+}
+#top
+{
+  text-align: center;
+  max-height: 100px;
+}
+#viewpanel
+{
+  background-color: green;
+  min-height: 550px;
+  width: 75%;
+  height: 60%;
+  float: left ;
+  text-align: center;
+
+}
+#buttonpanel
+{
+background-color: #66ffcc;
+height: 40%;
+width: 25%;
+min-height: 120px;
+float: right ;
+text-align: center;
+}
+#enterpanel
+{
+  margin-top: 10px;
+  background-color: #006600;
+  width: 75%;
+  min-height: 260px;
+  text-align: center;
+  float: left;
+}
+#userpanel
+{
+  background-color: #660066;
+  min-height: 700px;
+  width: 25%;
+  float: right ;
+  text-align: center;
+}
