@@ -18,7 +18,7 @@
 
     <div id="buttonpanel">
 <form action="main.php" method="post">
-<input type="submit" name="logout" value="Wyloguj">
+<input type="submit" name="logout" class="logoutbutton" value="Wyloguj">
 
 <?php
 if (isset($_POST['logout']))
@@ -37,8 +37,16 @@ if (isset($_POST['logout']))
     </div>
 
     <div id="enterpanel">
-<h1> Panle Wprowadzenia
+<form action="main.php" method="post">
+<input type="text" name="content" class="content">
+<input type="submit" name="send" class="sendbutton" value="Wyślij">
+<?php
 
+if (isset($_POST['send']))
+{
+    //kod
+}
+?>
     </div>
 
 
