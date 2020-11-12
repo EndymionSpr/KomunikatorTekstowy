@@ -16,6 +16,26 @@ namespace KomunikatorTekstowy.Migrations
                 .HasAnnotation("ProductVersion", "3.1.9")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("KomunikatorTekstowy.Models.Chats", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Path")
+                        .HasColumnName("path")
+                        .HasColumnType("text");
+
+                    b.Property<int>("User_id")
+                        .HasColumnName("user_id")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Chats");
+                });
+
             modelBuilder.Entity("KomunikatorTekstowy.Models.User", b =>
                 {
                     b.Property<int>("Id")
