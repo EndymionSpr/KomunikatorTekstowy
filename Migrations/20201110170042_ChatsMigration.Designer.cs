@@ -2,14 +2,16 @@
 using KomunikatorTekstowy.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace KomunikatorTekstowy.Migrations
 {
     [DbContext(typeof(IntroductionDbContext))]
-    partial class IntroductionDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201110170042_ChatsMigration")]
+    partial class ChatsMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
