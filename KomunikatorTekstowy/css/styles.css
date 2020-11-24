@@ -1,0 +1,255 @@
+html{
+	height: 100%;
+}
+body{
+	color: #4F8800;
+	font-weight: bolder;
+	background-color: #99D9EA;
+  height: 100%;
+  margin: 0px;
+}
+
+a:link{
+  text-decoration: none;
+  color:#4F8800;
+}
+
+a:visited
+{
+  color: #4F8800;
+}
+
+.title{
+font-size: 75px;
+padding-top: 25px;
+}
+
+.container{
+  text-align: center;
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  display: grid;
+  align-items: center; 
+}
+.row{
+  min-height: 100%;
+}
+
+.content{
+margin-top: -250px;
+}
+
+.label-zaloguj{
+font-size: 50px;
+}
+
+.input-zaloguj{
+  width: 400px;
+  height: 60px;
+  margin-top: 15px;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.input-zaloguj::placeholder{
+  color:#4F8800;
+}
+
+.input-zaloguj:hover{
+  border: 3px solid #4F8800; 
+}
+
+.haslo,.rejestracja{
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.submit-zaloguj{
+  background-color: #4F8800;
+  color: #99D9EA;
+  width: 180px;
+  height: 60px;
+  font-size: 30px;
+  border: none;
+}
+
+/* Dodatkowe cssy do rejestracji */
+
+.content-rejestracja{
+  margin-top: -550px;
+}
+
+.form-rejestracja{
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+.form-rejestracja span{
+  text-align: center;
+  font-size: 30px;
+}
+
+.rejestracja-input{
+  margin-top: 15px;
+}
+
+.rejestracja-input span{
+  padding-top: 30px;
+  float: left;
+  margin-bottom: 13px;
+}
+
+.input-rejestracja{
+  width: 400px;
+  height: 60px;
+  margin-top: 15px;
+  font-size: 30px;
+  padding-left: 10px;
+  margin-left: 160px;
+  float: right;
+}
+.input-rejestracja::placeholder{
+  color:#4F8800;
+}
+
+.input-rejestracja:hover{
+  border: 3px solid #4F8800; 
+}
+
+.input-password{
+  width: 400px;
+  height: 60px;
+  margin-top: 15px;
+  font-size: 30px;
+  padding-left: 10px;
+  margin-left: 80px;
+  float: right;
+}
+
+.input-password::placeholder{
+  color:#4F8800;
+}
+  
+.input-password:hover{
+  border: 3px solid #4F8800; 
+}
+  
+.submit-rejestracja{
+  margin-top: 30px;
+  background-color: #4F8800;
+  color: #99D9EA;
+  width: 210px;
+  height: 60px;
+  font-size: 30px;
+  border: none;
+}
+
+/*Dodatkowe cssy do maina*/
+
+.content-main{
+
+}
+.viewpanel
+{
+  background-color: white;
+  border: 3px solid #4F8800; 
+  min-height: 550px;
+  width: 70%;
+  height: 60%;
+  float: left ;
+  text-align: left;
+  font-size: 30px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.row-view
+{
+  padding-left: 10px;
+  border: 3px solid #4F8800;
+  border-left: none;
+  border-right: none;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+}
+
+.enterpanel
+{
+  background-color: #4F8800;;
+  border: 3px solid #4F8800; 
+  margin-top: 10px;
+  width: 70%;
+  min-height: 180px;
+  text-align: center;
+  margin-left: 20px;
+  float: left;
+}
+
+.message {
+  float: left;
+  width: 900px;
+  height: 173px;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+.sendbutton
+{
+	float: right;
+	margin-right: 45px;
+	margin-top: 55px;
+	width: 150px;
+  height: 75px;
+  border: none;
+  background-color:#99D9EA;
+  color: #4F8800;;
+  font-size: 36px;
+}
+
+.buttonpanel
+{
+  height: 40%;
+  width: 20%;
+  min-height: 120px;
+  float: right;
+  text-align: center;
+  margin-right: 50px;
+  margin-top: -585px;
+}
+
+.logoutbutton
+{
+	margin-top: 30px; 
+	float: center;
+	width: 200px;
+  height: 120px;
+  margin-bottom: 30px;
+  color: #99D9EA;
+  border: none;
+  background-color: #4F8800;;
+  font-size: 35px;
+}
+
+.userpanel
+{
+  border: 3px solid #4F8800; 
+  background-color: white;
+  min-height: 400px;
+  width: 20%;
+  margin-right: 50px;
+  float: right;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -400px;
+}
+
+.row-user{
+  padding-left: 10px;
+  border: 3px solid #4F8800;
+  border-left: none;
+  border-right: none;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+}
