@@ -2,7 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using KomunikatorTekstowy.Database;
+using KomunikatorTekstowy.Mapper;
+using KomunikatorTekstowy.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +30,17 @@ namespace KomunikatorTekstowy
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(c => c.AddProfile<AutoMap>(), typeof(Startup));
+            services.AddCors(options =>
+            {
+                options.AddPolicy(
+                    "AllowAllOrgins",
+                    builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()
+                    );
+            });
+
+            services.AddScoped<IUsersRepository, UsersRepository>();
+            services.AddScoped<IChatsRepository, ChatsRepository>();
             services.AddControllers();
             services.AddDbContext<IntroductionDbContext>(options => 
             options.UseMySQL( 
@@ -38,6 +52,7 @@ namespace KomunikatorTekstowy
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors("AllowAllOrgins");
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

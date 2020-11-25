@@ -43,6 +43,6 @@ namespace KomunikatorTekstowy.Database
             });
         }
         public DbSet<User> Users { get; set; }
-        public DbSet<Chats> Chats { get; set; }
+        public DbSet<Chat> Chats { get; set; }
     }
 }

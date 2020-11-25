@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace KomunikatorTekstowy.Models
 {
     [Table("Chats")]
-    public class Chats
+    public class Chat
     {
         [Key]
         [Column("id")]
