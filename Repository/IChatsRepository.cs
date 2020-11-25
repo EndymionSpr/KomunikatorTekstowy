@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KomunikatorTekstowy.Repository
 {
-    interface IChatsRepository
+    public interface IChatsRepository
     {
         List<Chat> GetChats();
 

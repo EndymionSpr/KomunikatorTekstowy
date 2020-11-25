@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KomunikatorTekstowy.Repository
 {
-     interface IUsersRepository
+     public interface IUsersRepository
     {
         List<User> GetUsers();
 
