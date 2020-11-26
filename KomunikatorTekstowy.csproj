@@ -5,19 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
-    <Compile Include="obj\Debug\netcoreapp3.1\KomunikatorTekstowy.AssemblyInfo.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Include="bin\Debug\netcoreapp3.1\appsettings.Development.json" />
     <Content Include="bin\Debug\netcoreapp3.1\appsettings.json" />
     <Content Include="bin\Debug\netcoreapp3.1\KomunikatorTekstowy.deps.json" />
     <Content Include="bin\Debug\netcoreapp3.1\KomunikatorTekstowy.runtimeconfig.dev.json" />
     <Content Include="bin\Debug\netcoreapp3.1\KomunikatorTekstowy.runtimeconfig.json" />
     <Content Include="bin\Debug\netcoreapp3.1\Properties\launchSettings.json" />
-    <Content Include="obj\Debug\netcoreapp3.1\KomunikatorTekstowy.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\netcoreapp3.1\staticwebassets\KomunikatorTekstowy.StaticWebAssets.xml" />
     <Content Include="obj\KomunikatorTekstowy.csproj.nuget.dgspec.json" />
     <Content Include="obj\project.assets.json" />
   </ItemGroup>
@@ -69,18 +62,6 @@
     <None Include="bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll" />
     <None Include="bin\Debug\netcoreapp3.1\Zstandard.Net.dll" />
     <None Include="KomunikatorTekstowy.sln" />
-    <None Include="obj\Debug\netcoreapp3.1\KomunikatorTekstowy.AssemblyInfoInputs.cache" />
-    <None Include="obj\Debug\netcoreapp3.1\KomunikatorTekstowy.assets.cache" />
-    <None Include="obj\Debug\netcoreapp3.1\KomunikatorTekstowy.csproj.CopyComplete" />
-    <None Include="obj\Debug\netcoreapp3.1\KomunikatorTekstowy.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\netcoreapp3.1\KomunikatorTekstowy.csprojAssemblyReference.cache" />
-    <None Include="obj\Debug\netcoreapp3.1\KomunikatorTekstowy.dll" />
-    <None Include="obj\Debug\netcoreapp3.1\KomunikatorTekstowy.exe" />
-    <None Include="obj\Debug\netcoreapp3.1\KomunikatorTekstowy.genruntimeconfig.cache" />
-    <None Include="obj\Debug\netcoreapp3.1\KomunikatorTekstowy.MvcApplicationPartsAssemblyInfo.cache" />
-    <None Include="obj\Debug\netcoreapp3.1\KomunikatorTekstowy.pdb" />
-    <None Include="obj\Debug\netcoreapp3.1\KomunikatorTekstowy.RazorTargetAssemblyInfo.cache" />
-    <None Include="obj\Debug\netcoreapp3.1\staticwebassets\KomunikatorTekstowy.StaticWebAssets.Manifest.cache" />
     <None Include="obj\KomunikatorTekstowy.csproj.nuget.cache" />
     <None Include="obj\KomunikatorTekstowy.csproj.nuget.g.props" />
     <None Include="obj\KomunikatorTekstowy.csproj.nuget.g.targets" />
@@ -103,7 +84,6 @@
 
   <ItemGroup>
     <Folder Include=".vs\KomunikatorTekstowy\v16\" />
-    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
 
 

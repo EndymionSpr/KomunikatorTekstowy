@@ -23,14 +23,14 @@ namespace KomunikatorTekstowy.Controllers
 
         // GET: api/Chats
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Chats>>> GetChats()
+        public async Task<ActionResult<IEnumerable<Chat>>> GetChats()
         {
             return await _context.Chats.ToListAsync();
         }
 
         // GET: api/Chats/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Chats>> GetChats(int id)
+        public async Task<ActionResult<Chat>> GetChats(int id)
         {
             var chats = await _context.Chats.FindAsync(id);
 
@@ -46,7 +46,7 @@ namespace KomunikatorTekstowy.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutChats(int id, Chats chats)
+        public async Task<IActionResult> PutChats(int id, Chat chats)
         {
             if (id != chats.Id)
             {
@@ -78,7 +78,7 @@ namespace KomunikatorTekstowy.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<Chats>> PostChats(Chats chats)
+        public async Task<ActionResult<Chat>> PostChats(Chat chats)
         {
             _context.Chats.Add(chats);
             await _context.SaveChangesAsync();
@@ -88,7 +88,7 @@ namespace KomunikatorTekstowy.Controllers
 
         // DELETE: api/Chats/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Chats>> DeleteChats(int id)
+        public async Task<ActionResult<Chat>> DeleteChats(int id)
         {
             var chats = await _context.Chats.FindAsync(id);
             if (chats == null)
