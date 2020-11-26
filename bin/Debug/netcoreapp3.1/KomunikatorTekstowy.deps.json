@@ -25,7 +25,10 @@
       "KomunikatorTekstowy/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
+<<<<<<< HEAD
           "Microsoft.AspNetCore.Mvc.Cors": "2.2.0",
+=======
+>>>>>>> Adrian
           "Microsoft.EntityFrameworkCore": "3.1.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.9",
@@ -33,6 +36,7 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.4",
           "MySql.Data.EntityFrameworkCore": "8.0.22",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
+<<<<<<< HEAD
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Core.Reference": "3.1.0.0",
@@ -40,6 +44,15 @@
           "Microsoft.AspNetCore.Authentication.OAuth": "3.1.0.0",
           "Microsoft.AspNetCore.Authorization.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authorization.Policy.Reference": "3.1.0.0",
+=======
+          "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
+          "Microsoft.AspNetCore.Authentication.Core": "3.1.0.0",
+          "Microsoft.AspNetCore.Authentication": "3.1.0.0",
+          "Microsoft.AspNetCore.Authentication.OAuth": "3.1.0.0",
+          "Microsoft.AspNetCore.Authorization": "3.1.0.0",
+          "Microsoft.AspNetCore.Authorization.Policy": "3.1.0.0",
+>>>>>>> Adrian
           "Microsoft.AspNetCore.Components.Authorization": "3.1.0.0",
           "Microsoft.AspNetCore.Components": "3.1.0.0",
           "Microsoft.AspNetCore.Components.Forms": "3.1.0.0",
@@ -47,7 +60,11 @@
           "Microsoft.AspNetCore.Components.Web": "3.1.0.0",
           "Microsoft.AspNetCore.Connections.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.CookiePolicy": "3.1.0.0",
+<<<<<<< HEAD
           "Microsoft.AspNetCore.Cors.Reference": "3.1.0.0",
+=======
+          "Microsoft.AspNetCore.Cors": "3.1.0.0",
+>>>>>>> Adrian
           "Microsoft.AspNetCore.Cryptography.Internal": "3.1.0.0",
           "Microsoft.AspNetCore.Cryptography.KeyDerivation": "3.1.0.0",
           "Microsoft.AspNetCore.DataProtection.Abstractions": "3.1.0.0",
@@ -58,6 +75,7 @@
           "Microsoft.AspNetCore.Diagnostics.HealthChecks": "3.1.0.0",
           "Microsoft.AspNetCore": "3.1.0.0",
           "Microsoft.AspNetCore.HostFiltering": "3.1.0.0",
+<<<<<<< HEAD
           "Microsoft.AspNetCore.Hosting.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Hosting": "3.1.0.0",
           "Microsoft.AspNetCore.Hosting.Server.Abstractions.Reference": "3.1.0.0",
@@ -68,16 +86,35 @@
           "Microsoft.AspNetCore.Http.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Http.Extensions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Http.Features.Reference": "3.1.0.0",
+=======
+          "Microsoft.AspNetCore.Hosting.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.Hosting": "3.1.0.0",
+          "Microsoft.AspNetCore.Hosting.Server.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.Html.Abstractions.Reference": "3.1.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.Http.Connections.Common": "3.1.0.0",
+          "Microsoft.AspNetCore.Http.Connections": "3.1.0.0",
+          "Microsoft.AspNetCore.Http": "3.1.0.0",
+          "Microsoft.AspNetCore.Http.Extensions": "3.1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "3.1.0.0",
+>>>>>>> Adrian
           "Microsoft.AspNetCore.HttpOverrides": "3.1.0.0",
           "Microsoft.AspNetCore.HttpsPolicy": "3.1.0.0",
           "Microsoft.AspNetCore.Identity": "3.1.0.0",
           "Microsoft.AspNetCore.Localization": "3.1.0.0",
           "Microsoft.AspNetCore.Localization.Routing": "3.1.0.0",
           "Microsoft.AspNetCore.Metadata": "3.1.0.0",
+<<<<<<< HEAD
           "Microsoft.AspNetCore.Mvc.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.ApiExplorer": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.Core.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.Cors.Reference": "3.1.0.0",
+=======
+          "Microsoft.AspNetCore.Mvc.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.ApiExplorer": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.Core": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.Cors": "3.1.0.0",
+>>>>>>> Adrian
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.Formatters.Json": "3.1.0.0",
@@ -89,12 +126,21 @@
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "3.1.0.0",
           "Microsoft.AspNetCore.Razor.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Razor.Runtime.Reference": "3.1.0.0",
+<<<<<<< HEAD
           "Microsoft.AspNetCore.ResponseCaching.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.ResponseCaching": "3.1.0.0",
           "Microsoft.AspNetCore.ResponseCompression": "3.1.0.0",
           "Microsoft.AspNetCore.Rewrite": "3.1.0.0",
           "Microsoft.AspNetCore.Routing.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Routing.Reference": "3.1.0.0",
+=======
+          "Microsoft.AspNetCore.ResponseCaching.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.ResponseCaching": "3.1.0.0",
+          "Microsoft.AspNetCore.ResponseCompression": "3.1.0.0",
+          "Microsoft.AspNetCore.Rewrite": "3.1.0.0",
+          "Microsoft.AspNetCore.Routing.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.Routing": "3.1.0.0",
+>>>>>>> Adrian
           "Microsoft.AspNetCore.Server.HttpSys": "3.1.0.0",
           "Microsoft.AspNetCore.Server.IIS": "3.1.0.0",
           "Microsoft.AspNetCore.Server.IISIntegration": "3.1.0.0",
@@ -108,7 +154,11 @@
           "Microsoft.AspNetCore.SignalR.Protocols.Json": "3.1.0.0",
           "Microsoft.AspNetCore.StaticFiles": "3.1.0.0",
           "Microsoft.AspNetCore.WebSockets": "3.1.0.0",
+<<<<<<< HEAD
           "Microsoft.AspNetCore.WebUtilities.Reference": "3.1.0.0",
+=======
+          "Microsoft.AspNetCore.WebUtilities": "3.1.0.0",
+>>>>>>> Adrian
           "Microsoft.CSharp.Reference": "4.0.0.0",
           "Microsoft.Extensions.Configuration.CommandLine": "3.1.0.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "3.1.0.0",
@@ -120,12 +170,20 @@
           "Microsoft.Extensions.Configuration.Xml": "3.1.0.0",
           "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "3.1.0.0",
           "Microsoft.Extensions.Diagnostics.HealthChecks": "3.1.0.0",
+<<<<<<< HEAD
           "Microsoft.Extensions.FileProviders.Abstractions.Reference": "3.1.0.0",
+=======
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.0.0",
+>>>>>>> Adrian
           "Microsoft.Extensions.FileProviders.Composite": "3.1.0.0",
           "Microsoft.Extensions.FileProviders.Embedded": "3.1.0.0",
           "Microsoft.Extensions.FileProviders.Physical": "3.1.0.0",
           "Microsoft.Extensions.FileSystemGlobbing": "3.1.0.0",
+<<<<<<< HEAD
           "Microsoft.Extensions.Hosting.Abstractions.Reference": "3.1.0.0",
+=======
+          "Microsoft.Extensions.Hosting.Abstractions": "3.1.0.0",
+>>>>>>> Adrian
           "Microsoft.Extensions.Hosting": "3.1.0.0",
           "Microsoft.Extensions.Http": "3.1.0.0",
           "Microsoft.Extensions.Identity.Core": "3.1.0.0",
@@ -138,12 +196,20 @@
           "Microsoft.Extensions.Logging.EventLog": "3.1.0.0",
           "Microsoft.Extensions.Logging.EventSource": "3.1.0.0",
           "Microsoft.Extensions.Logging.TraceSource": "3.1.0.0",
+<<<<<<< HEAD
           "Microsoft.Extensions.ObjectPool.Reference": "3.1.0.0",
+=======
+          "Microsoft.Extensions.ObjectPool": "3.1.0.0",
+>>>>>>> Adrian
           "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.0.0",
           "Microsoft.Extensions.Options.DataAnnotations": "3.1.0.0",
           "Microsoft.Extensions.WebEncoders": "3.1.0.0",
           "Microsoft.JSInterop": "3.1.0.0",
+<<<<<<< HEAD
           "Microsoft.Net.Http.Headers.Reference": "3.1.0.0",
+=======
+          "Microsoft.Net.Http.Headers": "3.1.0.0",
+>>>>>>> Adrian
           "Microsoft.VisualBasic.Core": "10.0.5.0",
           "Microsoft.VisualBasic": "10.0.0.0",
           "Microsoft.Win32.Primitives.Reference": "4.1.2.0",
@@ -412,6 +478,7 @@
           "lib/netstandard2.0/K4os.Hash.xxHash.dll": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -460,11 +527,14 @@
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.9"
         }
       },
+=======
+>>>>>>> Adrian
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "dependencies": {
           "System.Text.Encodings.Web": "4.5.0"
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Http/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -524,6 +594,8 @@
           "Microsoft.AspNetCore.Mvc.Core": "2.2.0"
         }
       },
+=======
+>>>>>>> Adrian
       "Microsoft.AspNetCore.Razor/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Html.Abstractions": "2.2.0"
@@ -546,6 +618,7 @@
           "Microsoft.AspNetCore.Razor": "2.2.0"
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.ResponseCaching.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "3.1.9"
@@ -571,6 +644,8 @@
           "System.Text.Encodings.Web": "4.5.0"
         }
       },
+=======
+>>>>>>> Adrian
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -1117,6 +1192,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "3.1.9"
@@ -1130,6 +1206,8 @@
           "Microsoft.Extensions.Logging.Abstractions": "3.1.9"
         }
       },
+=======
+>>>>>>> Adrian
       "Microsoft.Extensions.Logging/3.1.9": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "3.1.9",
@@ -1158,7 +1236,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.ObjectPool/2.2.0": {},
+=======
+>>>>>>> Adrian
       "Microsoft.Extensions.Options/3.1.9": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
@@ -1276,12 +1357,15 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Net.Http.Headers/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "3.1.9",
           "System.Buffers": "4.5.1"
         }
       },
+=======
+>>>>>>> Adrian
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.VisualStudio.Web.CodeGeneration/3.1.4": {
@@ -2808,7 +2892,11 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Authentication.Abstractions.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Authentication.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Authentication.Abstractions.dll": {}
         },
@@ -2820,7 +2908,11 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Authentication.Core.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Authentication.Core/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Authentication.Core.dll": {}
         },
@@ -2838,13 +2930,21 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Authorization.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Authorization/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Authorization.dll": {}
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Authorization.Policy.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Authorization.Policy/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Authorization.Policy.dll": {}
         },
@@ -2892,7 +2992,11 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Cors.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Cors/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Cors.dll": {}
         },
@@ -2958,7 +3062,11 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Hosting.Abstractions.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Hosting.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
         },
@@ -2970,7 +3078,11 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Hosting.Server.Abstractions.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Hosting.Server.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
         },
@@ -2982,7 +3094,11 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Http.Abstractions.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Http.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Http.Abstractions.dll": {}
         },
@@ -3000,19 +3116,31 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Http.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Http/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Http.dll": {}
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Http.Extensions.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Http.Extensions/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Http.Extensions.dll": {}
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Http.Features.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Http.Features/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Http.Features.dll": {}
         },
@@ -3054,7 +3182,11 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Mvc.Abstractions.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Mvc.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Mvc.Abstractions.dll": {}
         },
@@ -3066,13 +3198,21 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Mvc.Core.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Mvc.Core/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Mvc.Core.dll": {}
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Mvc.Cors.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Mvc.Cors/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Mvc.Cors.dll": {}
         },
@@ -3144,7 +3284,11 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.ResponseCaching.Abstractions.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.ResponseCaching.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.ResponseCaching.Abstractions.dll": {}
         },
@@ -3168,13 +3312,21 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Routing.Abstractions.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Routing.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Routing.Abstractions.dll": {}
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Routing.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.Routing/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.Routing.dll": {}
         },
@@ -3258,7 +3410,11 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.WebUtilities.Reference/3.1.0.0": {
+=======
+      "Microsoft.AspNetCore.WebUtilities/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.AspNetCore.WebUtilities.dll": {}
         },
@@ -3330,7 +3486,11 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.FileProviders.Abstractions.Reference/3.1.0.0": {
+=======
+      "Microsoft.Extensions.FileProviders.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.Extensions.FileProviders.Abstractions.dll": {}
         },
@@ -3360,7 +3520,11 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.Hosting.Abstractions.Reference/3.1.0.0": {
+=======
+      "Microsoft.Extensions.Hosting.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.Extensions.Hosting.Abstractions.dll": {}
         },
@@ -3438,7 +3602,11 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.ObjectPool.Reference/3.1.0.0": {
+=======
+      "Microsoft.Extensions.ObjectPool/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.Extensions.ObjectPool.dll": {}
         },
@@ -3468,7 +3636,11 @@
         },
         "compileOnly": true
       },
+<<<<<<< HEAD
       "Microsoft.Net.Http.Headers.Reference/3.1.0.0": {
+=======
+      "Microsoft.Net.Http.Headers/3.1.0.0": {
+>>>>>>> Adrian
         "compile": {
           "Microsoft.Net.Http.Headers.dll": {}
         },
@@ -4467,6 +4639,7 @@
       "path": "k4os.hash.xxhash/1.0.6",
       "hashPath": "k4os.hash.xxhash.1.0.6.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -4516,6 +4689,8 @@
       "path": "microsoft.aspnetcore.hosting.server.abstractions/2.2.0",
       "hashPath": "microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> Adrian
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -4523,6 +4698,7 @@
       "path": "microsoft.aspnetcore.html.abstractions/2.2.0",
       "hashPath": "microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Http/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -4572,6 +4748,8 @@
       "path": "microsoft.aspnetcore.mvc.cors/2.2.0",
       "hashPath": "microsoft.aspnetcore.mvc.cors.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> Adrian
     "Microsoft.AspNetCore.Razor/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -4593,6 +4771,7 @@
       "path": "microsoft.aspnetcore.razor.runtime/2.2.0",
       "hashPath": "microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.ResponseCaching.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -4621,6 +4800,8 @@
       "path": "microsoft.aspnetcore.webutilities/2.2.0",
       "hashPath": "microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> Adrian
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
       "serviceable": true,
@@ -4824,6 +5005,7 @@
       "path": "microsoft.extensions.dependencymodel/3.1.6",
       "hashPath": "microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -4838,6 +5020,8 @@
       "path": "microsoft.extensions.hosting.abstractions/2.2.0",
       "hashPath": "microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> Adrian
     "Microsoft.Extensions.Logging/3.1.9": {
       "type": "package",
       "serviceable": true,
@@ -4852,6 +5036,7 @@
       "path": "microsoft.extensions.logging.abstractions/3.1.9",
       "hashPath": "microsoft.extensions.logging.abstractions.3.1.9.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.ObjectPool/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -4859,6 +5044,8 @@
       "path": "microsoft.extensions.objectpool/2.2.0",
       "hashPath": "microsoft.extensions.objectpool.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> Adrian
     "Microsoft.Extensions.Options/3.1.9": {
       "type": "package",
       "serviceable": true,
@@ -4915,6 +5102,7 @@
       "path": "microsoft.identitymodel.tokens/5.5.0",
       "hashPath": "microsoft.identitymodel.tokens.5.5.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.Net.Http.Headers/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -4922,6 +5110,8 @@
       "path": "microsoft.net.http.headers/2.2.0",
       "hashPath": "microsoft.net.http.headers.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> Adrian
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
       "serviceable": true,
@@ -5893,7 +6083,11 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Authentication.Abstractions.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Authentication.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5903,7 +6097,11 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Authentication.Core.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Authentication.Core/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5918,12 +6116,20 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Authorization.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Authorization/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Authorization.Policy.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Authorization.Policy/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5963,7 +6169,11 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Cors.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Cors/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6018,7 +6228,11 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Hosting.Abstractions.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Hosting.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6028,7 +6242,11 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Hosting.Server.Abstractions.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Hosting.Server.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6038,7 +6256,11 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Http.Abstractions.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Http.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6053,17 +6275,29 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Http.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Http/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Http.Extensions.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Http.Extensions/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Http.Features.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Http.Features/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6098,7 +6332,11 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Mvc.Abstractions.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Mvc.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6108,12 +6346,20 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Mvc.Core.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Mvc.Core/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Mvc.Cors.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Mvc.Cors/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6173,7 +6419,11 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.ResponseCaching.Abstractions.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.ResponseCaching.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6193,12 +6443,20 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Routing.Abstractions.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Routing.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Routing.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.Routing/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6268,7 +6526,11 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.WebUtilities.Reference/3.1.0.0": {
+=======
+    "Microsoft.AspNetCore.WebUtilities/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6328,7 +6590,11 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.FileProviders.Abstractions.Reference/3.1.0.0": {
+=======
+    "Microsoft.Extensions.FileProviders.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6353,7 +6619,11 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.Hosting.Abstractions.Reference/3.1.0.0": {
+=======
+    "Microsoft.Extensions.Hosting.Abstractions/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6418,7 +6688,11 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.ObjectPool.Reference/3.1.0.0": {
+=======
+    "Microsoft.Extensions.ObjectPool/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6443,7 +6717,11 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Microsoft.Net.Http.Headers.Reference/3.1.0.0": {
+=======
+    "Microsoft.Net.Http.Headers/3.1.0.0": {
+>>>>>>> Adrian
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

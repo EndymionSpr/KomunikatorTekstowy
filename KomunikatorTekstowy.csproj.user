@@ -10,7 +10,10 @@
     <UseGlobalApplicationHostFile />
     <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
     <ProjectView>ShowAllFiles</ProjectView>
+<<<<<<< HEAD
     <ShowAllFiles>true</ShowAllFiles>
+=======
+>>>>>>> Adrian
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

@@ -52,7 +52,10 @@ namespace KomunikatorTekstowy
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+<<<<<<< HEAD
             app.UseDeveloperExceptionPage();
+=======
+>>>>>>> Adrian
             app.UseCors("AllowAllOrgins");
             if (env.IsDevelopment())
             {

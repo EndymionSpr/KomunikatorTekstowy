@@ -23,14 +23,22 @@ namespace KomunikatorTekstowy.Controllers
 
         // GET: api/Chats
         [HttpGet]
+<<<<<<< HEAD
         public async Task<ActionResult<IEnumerable<Chat>>> GetChats()
+=======
+        public async Task<ActionResult<IEnumerable<Chats>>> GetChats()
+>>>>>>> Adrian
         {
             return await _context.Chats.ToListAsync();
         }
 
         // GET: api/Chats/5
         [HttpGet("{id}")]
+<<<<<<< HEAD
         public async Task<ActionResult<Chat>> GetChats(int id)
+=======
+        public async Task<ActionResult<Chats>> GetChats(int id)
+>>>>>>> Adrian
         {
             var chats = await _context.Chats.FindAsync(id);
 
@@ -46,7 +54,11 @@ namespace KomunikatorTekstowy.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
+<<<<<<< HEAD
         public async Task<IActionResult> PutChats(int id, Chat chats)
+=======
+        public async Task<IActionResult> PutChats(int id, Chats chats)
+>>>>>>> Adrian
         {
             if (id != chats.Id)
             {
@@ -78,7 +90,11 @@ namespace KomunikatorTekstowy.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
+<<<<<<< HEAD
         public async Task<ActionResult<Chat>> PostChats(Chat chats)
+=======
+        public async Task<ActionResult<Chats>> PostChats(Chats chats)
+>>>>>>> Adrian
         {
             _context.Chats.Add(chats);
             await _context.SaveChangesAsync();
@@ -88,7 +104,11 @@ namespace KomunikatorTekstowy.Controllers
 
         // DELETE: api/Chats/5
         [HttpDelete("{id}")]
+<<<<<<< HEAD
         public async Task<ActionResult<Chat>> DeleteChats(int id)
+=======
+        public async Task<ActionResult<Chats>> DeleteChats(int id)
+>>>>>>> Adrian
         {
             var chats = await _context.Chats.FindAsync(id);
             if (chats == null)

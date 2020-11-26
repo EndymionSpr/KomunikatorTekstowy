@@ -21,12 +21,20 @@ namespace KomunikatorTekstowy.Mapper
                 .ForMember(d => d.Nickname, source => source.MapFrom(s => s.Nickname))
                 .ForMember(d => d.Password, source => source.MapFrom(s => s.Password));
 
+<<<<<<< HEAD
             CreateMap<Chat, ChatsDTO>()
+=======
+            CreateMap<Chats, ChatsDTO>()
+>>>>>>> Adrian
                 .ForMember(d => d.Id, source => source.MapFrom(s => s.Id))
                 .ForMember(d => d.User_id, source => source.MapFrom(s => s.User_id))
                 .ForMember(d => d.Path, source => source.MapFrom(s => s.Path));
 
+<<<<<<< HEAD
             CreateMap<ChatsDTO, Chat>()
+=======
+            CreateMap<ChatsDTO, Chats>()
+>>>>>>> Adrian
                 .ForMember(d => d.Id, source => source.MapFrom(s => s.Id))
                 .ForMember(d => d.User_id, source => source.MapFrom(s => s.User_id))
                 .ForMember(d => d.Path, source => source.MapFrom(s => s.Path));
